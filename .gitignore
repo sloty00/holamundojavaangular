@@ -1,0 +1,21 @@
+# --- Ignorar carpetas de construcción ---
+target/
+dist/
+out-tsc/
+bazel-out/
+
+# --- Ignorar dependencias (no se suben al repo) ---
+node_modules/
+.angular/
+.mvn/
+.gradle/
+
+# --- Ignorar archivos de VS Code y otros editores ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Archivos específicos de sistema ---
+.DS_Store
+Thumbs.db
